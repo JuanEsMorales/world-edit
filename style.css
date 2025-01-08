@@ -5,6 +5,20 @@ body {
   color: #ffffff;
 }
 
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  font-size: 2rem;
+  width: 70px;
+  display: grid;
+  place-items: center;
+}
+
 #my-canvas {
   background-color: #2a5;
 }
